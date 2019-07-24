@@ -18,11 +18,11 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         password: 'root'
         platform: mysql
-        url: jdbc:mysql://localhost/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false&useTimezone=true&serverTimezone=UTC
+        url: jdbc:mysql://localhost/delivery-order?delivery-order?verifyServerCertificate=false&useSSL=false&requireSSL=false&useTimezone=true&serverTimezone=UTC
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
-        generate-ddl: true
+        generate-ddl: false
         hibernate:
             ddl-auto: create
         show-sql: true
